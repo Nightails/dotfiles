@@ -20,5 +20,35 @@
     "persistent-workspaces": {
       "*": 5
     }
-  }
+  },
+
+  
+  // Middle Modules
+  "hyprland/window": {
+    "format": "{title}",
+  },
+
+
+  // Right Modules
+  "pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-bluetooth": "{icon} {volume}%",
+		"format-muted": " ",
+		"format-icons": {
+			"default": [" ", " ", " "]
+		},
+		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"tooltip": false
+	},
+  "network": {
+    "interval": 60,
+    "format-wifi": "  {essid} ({signalStrength}%)",
+    "format-ethernet": "󰈀 Ethernet",
+    "format-disconnected": "󰖪 No connection",
+    "tooltip": false,
+  },
+  "clock": {
+    "interval": 60,
+    "format": " {:%R}",
+  },
 }
