@@ -1,4 +1,3 @@
-shell-intergration = fish
 shell-integration-features = no-cursor,no-title
 theme = tokyonight
 font-size = 13
