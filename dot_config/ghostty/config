@@ -1,5 +1,5 @@
 shell-integration-features = no-cursor,no-title
-theme = tokyonight
+theme = TokyoNight
 font-size = 13
 font-family = JetBrainsMono Nerd Font
 cursor-style = block
